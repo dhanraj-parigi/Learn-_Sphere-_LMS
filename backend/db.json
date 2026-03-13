@@ -1,0 +1,247 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "React for Beginners",
+      "instructor": "John Smith",
+      "price": 499,
+      "originalPrice": 1499,
+      "rating": 4.5,
+      "reviews": 2341,
+      "students": 12500,
+      "category": "Web Development",
+      "level": "Beginner",
+      "duration": "12 hours",
+      "thumbnail": "https://img-c.udemycdn.com/course/480x270/851712_fc61_6.jpg",
+      "description": "Learn React from scratch and build modern web applications.",
+      "lessons": [
+        {
+          "id": 1,
+          "title": "Introduction to React",
+          "duration": "12:45",
+          "video": "https://www.youtube.com/embed/bMknfKXIFA8"
+        },
+        {
+          "id": 2,
+          "title": "React Components & JSX",
+          "duration": "18:22",
+          "video": "https://www.youtube.com/embed/w7ejDZ8SWv8"
+        },
+        {
+          "id": 3,
+          "title": "State & Props",
+          "duration": "22:10",
+          "video": "https://www.youtube.com/embed/O6P86uwfdR0"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Python for Data Science & ML",
+      "instructor": "Priya Sharma",
+      "price": 999,
+      "originalPrice": 2999,
+      "rating": 4.8,
+      "reviews": 5621,
+      "students": 34200,
+      "category": "Data Science",
+      "level": "Intermediate",
+      "duration": "28 hours",
+      "thumbnail": "https://img-c.udemycdn.com/course/480x270/394676_ce3d_5.jpg",
+      "description": "Master Python for Data Science and Machine Learning.",
+      "lessons": [
+        {
+          "id": 1,
+          "title": "Python Basics",
+          "duration": "20:10",
+          "video": "https://www.youtube.com/embed/_uQrJ0TkZlc"
+        },
+        {
+          "id": 2,
+          "title": "NumPy",
+          "duration": "18:45",
+          "video": "https://www.youtube.com/embed/QUT1VHiLmmI"
+        },
+        {
+          "id": 3,
+          "title": "Pandas",
+          "duration": "24:30",
+          "video": "https://www.youtube.com/embed/vmEHCJofslg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "UI/UX Design Masterclass",
+      "instructor": "Rahul Mehta",
+      "price": 299,
+      "originalPrice": 999,
+      "rating": 4.3,
+      "reviews": 1892,
+      "students": 8900,
+      "category": "Design",
+      "level": "Beginner",
+      "duration": "10 hours",
+      "thumbnail": "https://img-c.udemycdn.com/course/480x270/1430746_2f43_10.jpg",
+      "description": "Learn UI/UX design fundamentals and Figma.",
+      "lessons": [
+        {
+          "id": 1,
+          "title": "UX Basics",
+          "duration": "14:20",
+          "video": "https://www.youtube.com/embed/c9Wg6Cb_YlU"
+        },
+        {
+          "id": 2,
+          "title": "Design Thinking",
+          "duration": "17:35",
+          "video": "https://www.youtube.com/embed/a7sEoEvT8l8"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Node.js & Express Backend Development",
+      "instructor": "Amit Kumar",
+      "price": 799,
+      "originalPrice": 1999,
+      "rating": 4.6,
+      "reviews": 3102,
+      "students": 15600,
+      "category": "Web Development",
+      "level": "Intermediate",
+      "duration": "20 hours",
+      "thumbnail": "https://img-c.udemycdn.com/course/480x270/1778502_f4b9_12.jpg",
+      "description": "Build scalable backend apps with Node.js and Express.",
+      "lessons": [
+        {
+          "id": 1,
+          "title": "Node.js Introduction",
+          "duration": "15:30",
+          "video": "https://www.youtube.com/embed/TlB_eWDSMt4"
+        },
+        {
+          "id": 2,
+          "title": "Express REST APIs",
+          "duration": "25:10",
+          "video": "https://www.youtube.com/embed/pKd0Rpw7O48"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "AWS Cloud Practitioner",
+      "instructor": "Neha Gupta",
+      "price": 1499,
+      "originalPrice": 3999,
+      "rating": 4.7,
+      "reviews": 4533,
+      "students": 22100,
+      "category": "Cloud",
+      "level": "Beginner",
+      "duration": "32 hours",
+      "thumbnail": "https://img-c.udemycdn.com/course/480x270/3632288_52a3_4.jpg",
+      "description": "Prepare for AWS Cloud Practitioner certification.",
+      "lessons": [
+        {
+          "id": 1,
+          "title": "AWS Basics",
+          "duration": "20:15",
+          "video": "https://www.youtube.com/embed/SOTamWNgDKc"
+        },
+        {
+          "id": 2,
+          "title": "EC2",
+          "duration": "28:40",
+          "video": "https://www.youtube.com/embed/8TlukLu11Yo"
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Web Development",
+      "icon": "code-slash",
+      "count": 2
+    },
+    {
+      "id": 2,
+      "name": "Data Science",
+      "icon": "graph-up",
+      "count": 1
+    },
+    {
+      "id": 3,
+      "name": "Design",
+      "icon": "palette",
+      "count": 1
+    },
+    {
+      "id": 4,
+      "name": "Cloud",
+      "icon": "cloud",
+      "count": 1
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Rohan Verma",
+      "role": "Software Engineer at Google",
+      "avatar": "RV",
+      "text": "This platform changed my career completely."
+    },
+    {
+      "id": 2,
+      "name": "Sneha Kapoor",
+      "role": "Data Scientist at Flipkart",
+      "avatar": "SK",
+      "text": "Amazing data science course with real projects."
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Dhanraj",
+      "email": "[dhanraj@gmail.com](mailto:dhanraj@gmail.com)",
+      "password": "123456",
+      "role": "student"
+    },
+    {
+      "id": 2,
+      "name": "Admin",
+      "email": "[admin@gmail.com](mailto:admin@gmail.com)",
+      "password": "admin123456",
+      "role": "admin"
+    },
+    {
+      "name": "kantham",
+      "email": "abcd@123",
+      "password": "1234567890",
+      "role": "student",
+      "id": 3
+    },
+    {
+      "name": "admindhanu",
+      "email": "22w91a66a4@mriet.ac.in",
+      "password": "1234567890",
+      "role": "admin",
+      "id": 4
+    }
+  ],
+  "enrollments": [
+    {
+      "id": 1,
+      "userId": 1,
+      "courseId": 1,
+      "progress": 40
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "courseId": 2,
+      "progress": 20
+    }
+  ]
+}
